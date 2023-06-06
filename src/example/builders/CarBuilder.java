@@ -2,6 +2,11 @@ package example.builders;
 
 import example.cars.Car;
 import example.cars.CarType;
+import example.components.Engine;
+import example.components.Transmission;
+import example.components.GPSNavigator;
+import example.components.TripComputer;
+
 
 public class CarBuilder implements Builder{
 

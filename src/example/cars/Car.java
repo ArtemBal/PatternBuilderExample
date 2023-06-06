@@ -1,5 +1,10 @@
 package example.cars;
 
+import example.components.Engine;
+import example.components.Transmission;
+import example.components.GPSNavigator;
+import example.components.TripComputer;
+
 public class Car {
     private final CarType carType;
     private final int seats;
@@ -9,7 +14,7 @@ public class Car {
     private final GPSNavigator gpsNavigator;
     private double fuel = 0;
 
-    public Car(CarType type, int seats, Engine engine, Transmission transmission, TripComputer tripComputer, GPSNavigator gpsNavigator) {
+    public Car(CarType carType, int seats, Engine engine, Transmission transmission, TripComputer tripComputer, GPSNavigator gpsNavigator) {
         this.carType = carType;
         this.seats = seats;
         this.engine = engine;

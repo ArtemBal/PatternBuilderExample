@@ -1,5 +1,10 @@
 package example.cars;
 
+import example.components.Engine;
+import example.components.Transmission;
+import example.components.GPSNavigator;
+import example.components.TripComputer;
+
 public class Manual {
     private final CarType carType;
     private final int seats;
