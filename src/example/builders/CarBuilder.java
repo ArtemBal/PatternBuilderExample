@@ -48,7 +48,7 @@ public class CarBuilder implements Builder{
         this.gpsNavigator = gpsNavigator;
     }
 
-    public Car getResults() {
+    public Car getResult() {
         return new Car(type, seats, engine, transmission, tripComputer, gpsNavigator);
     }
 }
